@@ -2,50 +2,82 @@
 @media(max-width:760px){.header{height:70px}.menu{display:block;border:0;background:#f6edf6;color:var(--deep);border-radius:9px;padding:8px 11px;font-size:17px}.header-link{display:none}nav{display:none;position:absolute;top:65px;left:18px;right:18px;background:white;padding:18px;border:1px solid var(--line);border-radius:14px;box-shadow:0 12px 30px #49365316;flex-direction:column;gap:15px}nav.open{display:flex}.hero{grid-template-columns:1fr;padding-top:65px;gap:10px}.hero-art{height:370px}.orbit{width:330px;height:330px}.monogram-card{width:260px;height:300px}.monogram-card>strong{font-size:120px}.float-a{left:2px}.float-b{right:0}.section{padding-top:65px;padding-bottom:65px}.about-grid,.project,.cert-grid{grid-template-columns:1fr;gap:22px}.skills{align-items:flex-start;flex-direction:column}.project-art{min-height:330px}.project-copy{padding:28px 23px}.cert-image{height:300px}.contact-panel{padding:32px 25px}.contact-panel h2{font-size:34px}.contact-stamp{width:105px;height:105px;font-size:13px;flex:none}.contact-row{flex-wrap:wrap}.contact-row>div{min-width:42%}footer{flex-wrap:wrap}footer p{order:3;width:100%}}
 @media(max-width:420px){.hero-actions{gap:14px;flex-wrap:wrap}.hero-art{height:330px}.monogram-card{height:275px}.contact-stamp{display:none}.cert-image{height:260px}}
 
+.updates-card{border:1px solid var(--line);border-radius:20px;padding:30px;background:linear-gradient(135deg,#fffafd,#f8f4fb);box-shadow:0 12px 35px #5e456b0a}
+.updates-intro{font-size:13px;color:var(--muted);max-width:650px;margin-bottom:22px}
+.updates-list{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.updates-list article{display:flex;gap:12px;padding:18px 15px;background:#fff;border:1px solid var(--line);border-radius:14px}
+.updates-list article>span{font:800 11px Manrope;color:var(--pinkdark);background:#faedf3;border-radius:9px;padding:8px 9px;height:max-content}
+.updates-list h3{font-size:14px;letter-spacing:-.3px;margin:2px 0 8px}
+.updates-list p{font-size:11px;line-height:1.8;color:var(--muted)}
+.updates-note{margin-top:20px;padding:14px 16px;border-radius:12px;background:#f3eef9;color:#78678e;font-size:11px}
+.contact-row a:hover{color:var(--deep);text-decoration:underline}
+@media(max-width:760px){.updates-list{grid-template-columns:1fr}.updates-card{padding:22px}}
 
-/* Reference-inspired homepage only; the remaining portfolio sections stay intact. */
-:root{--ink:#100d18;--muted:#4e4557;--purple:#8d39bd;--deep:#70239c;--pink:#d9a2ef;--pinkdark:#7522a1;--line:#ead9f2}
-body{font-family:'Playfair Display',Georgia,serif;background:#fff5ff;color:#100d18}
-.header{max-width:1500px;height:94px;padding:0 36px}
-.brand{font:500 27px 'Playfair Display',serif;gap:11px;color:#15101b}
-.brand-icon{width:72px;height:54px;border-radius:18px;background:linear-gradient(135deg,#a64bce,#7627a2);font:500 22px 'Playfair Display',serif;color:#fff}
-.brand-word{display:inline-block}
-.dot{color:#7424a2}
-nav{gap:38px}
-nav a,.header-link{font:500 17px 'Playfair Display',serif;color:#1c1422}
-.header-link{border:1.5px solid #8f3ab7;padding:12px 22px}
-.hero{max-width:1500px;min-height:690px;grid-template-columns:1.08fr .92fr;gap:30px;padding:40px 5.5% 55px}
-.hero .eyebrow{font:700 13px 'Playfair Display',serif;letter-spacing:3px;color:#64228b}
-.hero .eyebrow:before{background:#8d35b8;width:11px;height:11px;margin-right:12px}
-.hello{font:italic 36px 'Playfair Display',serif;color:#100d18;margin-top:28px}
-h1.hero-name{font-weight:400;letter-spacing:-1px;line-height:1.02;margin-top:0}
-.first-name{display:block;font:400 clamp(76px,8vw,120px)/1.08 'Great Vibes','Playfair Display',serif;color:#100d18;white-space:nowrap}
-.full-name{display:block;font:500 clamp(42px,5vw,76px)/1.18 'Playfair Display',Georgia,serif;letter-spacing:-2px;white-space:nowrap}
-.initial-highlight{color:#6f1a9e;background:#e8c0fb;border-radius:8px;padding:0 3px}
-.intro{font:400 19px/1.65 'Playfair Display',serif;color:#19121e;max-width:630px;margin-top:24px}
-.actions{margin-top:30px;gap:34px}
-.btn{font:500 17px 'Playfair Display',serif;background:linear-gradient(110deg,#a341c8,#70239c);padding:17px 29px;box-shadow:0 10px 24px #792ca52b}
-.simple-link{font:500 17px 'Playfair Display',serif;color:#64228b;border-bottom:1px solid #64228b;padding-bottom:4px}
-.hero-art{height:500px}
-.orbit{width:min(42vw,550px);height:min(42vw,550px);border-color:#d7a6ed;border-width:1.5px}
-.monogram-card{width:min(34vw,465px);height:450px;border-radius:28px;background:linear-gradient(145deg,#f5d9ff,#d9a2f0 75%,#c48be5);padding:40px 34px;box-shadow:0 22px 60px #8e39b82a;border:1px solid #fff9}
-.monogram-card>strong{font:400 clamp(90px,9vw,145px)/1 'Great Vibes','Playfair Display',serif;letter-spacing:0;color:#71249e;text-shadow:none;position:relative;text-align:center;margin-top:22px}
-.monogram-card>strong:after{content:"";display:block;width:78%;height:28px;border-bottom:2px solid #71249e;border-radius:50%;transform:rotate(-8deg);margin:-5px auto 0}
-.card-caption b{display:block;font:italic 25px 'Playfair Display',serif;color:#1b1022}
-.card-caption small{display:block;font:14px 'Playfair Display',serif;color:#4f2b65;margin-top:4px}
-.butterfly{position:absolute;font-size:55px;filter:hue-rotate(20deg);z-index:2}
-.butterfly-a{top:34px;left:5%}.butterfly-b{top:50px;right:2%}
-.float{font:13px 'Playfair Display',serif;background:#fff8ff;color:#55226e;padding:12px 17px}
-.float-b{bottom:58px;right:-12px}
-.hero-foot{display:none}
-.section{font-family:'DM Sans',sans-serif}
-@media(max-width:900px){
- .header{padding:0 20px}.brand{font-size:22px}.brand-icon{width:58px;height:46px;font-size:18px}nav{gap:16px}
- .hero{padding-left:28px;padding-right:28px;grid-template-columns:1fr .9fr}.first-name{font-size:clamp(66px,9vw,95px)}.full-name{font-size:clamp(34px,4.7vw,52px)}
- .monogram-card{height:360px;padding:28px 22px}.card-caption b{font-size:20px}.card-caption small{font-size:11px}
+
+/* Final visual identity: elegant serif typography and purple MNO monogram */
+:root{--ink:#17121f;--muted:#65596d;--pink:#d7a2ef;--pinkdark:#7132a0;--purple:#b66ce0;--deep:#6825a0;--line:#eadcf0}
+body{font-family:'Cormorant Garamond',Georgia,serif;color:#17121f;background:radial-gradient(ellipse at 75% 20%,#f1ddff 0,transparent 36%),linear-gradient(115deg,#fff9ff,#fceeff 58%,#f5e4ff);font-size:18px}
+.header{max-width:1400px;height:92px}
+.brand{font-family:'Cormorant Garamond',Georgia,serif;font-size:27px;font-weight:600;color:#17121f;gap:10px}
+.brand-icon{width:54px;height:54px;border-radius:17px;background:linear-gradient(140deg,#a950d0,#6f2699);font:500 16px 'Cormorant Garamond',serif;letter-spacing:-.5px;color:#fff}
+.dot{color:#7d2ca5}
+nav{gap:32px}
+nav a,.header-link{font-family:'Cormorant Garamond',Georgia,serif;font-size:18px;font-weight:600;color:#24152d}
+.header-link{border-color:#8e45b5;padding:10px 20px}
+.hero{max-width:1400px;min-height:650px;grid-template-columns:1.12fr .88fr;padding-top:45px}
+.eyebrow{font-family:'Cormorant Garamond',Georgia,serif;font-size:14px;letter-spacing:2.4px;color:#6825a0}
+.hero .eyebrow:before{background:#8a39b1;width:9px;height:9px}
+.hello{font:italic 500 34px 'Cormorant Garamond',Georgia,serif;color:#17121f;margin-top:20px}
+h1,h2,h3{font-family:'Cormorant Garamond',Georgia,serif;letter-spacing:-1.1px}
+h1{font-size:clamp(58px,6.6vw,91px);font-weight:500;line-height:.98;margin-top:12px}
+h1 .name-line{background:none;color:#17121f}
+h1 .initial{display:inline-block;color:#7025a3;background:#e7c3fa;-webkit-text-fill-color:#7025a3;border-radius:9px;padding:0 3px;line-height:.92}
+h1 .name-line:first-child{font-style:italic;font-family:'Great Vibes','Cormorant Garamond',cursive;font-size:1.12em}
+h1 .name-line:nth-of-type(2){font-weight:600;letter-spacing:-2.5px}
+h1 .name-line:nth-of-type(2) .initial{display:inline-block;background:#e7c3fa;border-radius:9px;padding:0 3px}
+.intro{font:500 21px/1.4 'Cormorant Garamond',Georgia,serif;color:#35273d;max-width:520px;margin-top:24px}
+.btn{font:500 20px 'Cormorant Garamond',Georgia,serif;background:linear-gradient(110deg,#a447c9,#7130a2);box-shadow:0 9px 22px #8e43ad2b;padding:14px 25px}
+.simple-link{font:600 19px 'Cormorant Garamond',Georgia,serif;color:#6825a0;border-bottom:1px solid #6825a0;padding-bottom:3px}
+.hero-foot{font:500 14px 'Cormorant Garamond',Georgia,serif;color:#88728f}
+.hero-art{height:470px}
+.orbit{width:450px;height:450px;border-color:#d6a8e7}
+.monogram-card{width:min(100%,390px);height:400px;border:1px solid #fff9;background:linear-gradient(145deg,#f7e8ff,#e4c6fa 72%,#d5b4ef);border-radius:28px;padding:30px;box-shadow:0 25px 60px #7e65942b}
+.monogram-card>small{font:600 12px 'Cormorant Garamond',Georgia,serif;letter-spacing:2px;color:#6c4382}
+.monogram-card>strong{font:italic 500 clamp(65px,8vw,110px) 'Cormorant Garamond',Georgia,serif;text-align:center;color:#6825a0;letter-spacing:-6px;text-shadow:none}
+.monogram-card>div b{font:italic 600 23px 'Cormorant Garamond',Georgia,serif;color:#21112b}
+.monogram-card>div small{font:500 15px 'Cormorant Garamond',Georgia,serif;color:#5f456d}
+.float{font:600 14px 'Cormorant Garamond',Georgia,serif;color:#6825a0}
+.section h2{font-size:clamp(38px,4vw,54px)}
+.section h2 em,.project-copy h3 em,.contact-panel h2 em{color:#7b2ba7}
+.about-text p{font:500 18px/1.55 'Cormorant Garamond',Georgia,serif;color:#65596d}
+.about-text .lead{font:600 23px/1.45 'Cormorant Garamond',Georgia,serif;color:#34213e}
+.facts b,.tags span,.project-copy>p:not(.project-label):not(.project-status),.cert-info p,.section-intro{font-family:'Cormorant Garamond',Georgia,serif;font-size:17px}
+.skills h3{font-size:28px}
+.project-copy h3{font-size:39px}
+.project-copy h4{font:600 18px 'Cormorant Garamond',Georgia,serif}
+.project-label,.cert-type{font-family:'Cormorant Garamond',Georgia,serif;font-size:13px}
+.cert-info h3{font-size:29px}
+.cert-info>a{font:600 17px 'Cormorant Garamond',Georgia,serif}
+.contact-panel h2{font-size:50px}
+.contact-panel>div>p:not(.eyebrow){font:500 18px/1.5 'Cormorant Garamond',Georgia,serif}
+.contact-row a,.contact-row span{font:600 17px 'Cormorant Garamond',Georgia,serif}
+.contact-row small{font-size:11px}
+footer p,footer>span{font:500 14px 'Cormorant Garamond',Georgia,serif}
+footer .brand{font-size:23px}
+@media(max-width:760px){
+ .hero{grid-template-columns:1fr;padding-top:45px}
+ h1{font-size:clamp(54px,12vw,76px)}
+ .hero-art{height:360px}
+ .orbit{width:320px;height:320px}
+ .monogram-card{width:270px;height:305px}
+ .monogram-card>strong{font-size:80px}
+ .hello{font-size:30px}
+ nav a{font-size:18px}
+ .intro{font-size:20px}
+ .actions{flex-wrap:wrap;gap:18px}
 }
-@media(max-width:650px){
- .header{height:75px}.brand-icon{width:48px;height:42px;font-size:16px;border-radius:13px}.brand{font-size:20px}
- .hero{grid-template-columns:1fr;padding-top:45px;gap:8px}.hello{font-size:28px}.first-name{font-size:clamp(66px,17vw,100px)}.full-name{font-size:clamp(36px,9.4vw,55px);letter-spacing:-1.5px}
- .intro{font-size:16px}.actions{gap:18px;flex-wrap:wrap}.btn,.simple-link{font-size:14px}.hero-art{height:350px}.orbit{width:310px;height:310px}.monogram-card{width:265px;height:300px;padding:25px 22px}.monogram-card>strong{font-size:100px}.card-caption b{font-size:18px}.butterfly{font-size:39px}.butterfly-a{left:3%;top:18px}.butterfly-b{right:2%;top:22px}.float-b{right:0;bottom:35px}
-}
+
+/* Initial-letter identity: highlight all three initials M, N, and O in purple; keep remaining letters black. */
+h1 .name-line .initial{color:#7025a3 !important;-webkit-text-fill-color:#7025a3 !important;background:#e7c3fa !important;border-radius:9px;padding:0 3px;}
+h1 .name-line:first-child .initial{font-family:'Great Vibes','Cormorant Garamond',cursive;font-style:normal;}
+.monogram-card>strong{color:#6825a0 !important;-webkit-text-fill-color:#6825a0 !important;}
