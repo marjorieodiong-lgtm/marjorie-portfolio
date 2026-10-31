@@ -31,10 +31,10 @@ nav a,.header-link{font-family:'Cormorant Garamond',Georgia,serif;font-size:18px
 h1,h2,h3{font-family:'Cormorant Garamond',Georgia,serif;letter-spacing:-1.1px}
 h1{font-size:clamp(58px,6.6vw,91px);font-weight:500;line-height:.98;margin-top:12px}
 h1 .name-line{background:none;color:#17121f}
-h1 .initial{display:inline-block;color:#7025a3;background:#e7c3fa;-webkit-text-fill-color:#7025a3;border-radius:9px;padding:0 3px;line-height:.92}
+h1 .initial{color:#7025a3;background:none;-webkit-text-fill-color:#7025a3}
 h1 .name-line:first-child{font-style:italic;font-family:'Great Vibes','Cormorant Garamond',cursive;font-size:1.12em}
 h1 .name-line:nth-of-type(2){font-weight:600;letter-spacing:-2.5px}
-h1 .name-line:nth-of-type(2) .initial{display:inline-block;background:#e7c3fa;border-radius:9px;padding:0 3px}
+h1 .name-line:nth-of-type(2) .initial{display:inline-block;background:#e7c3fa;border-radius:9px;padding:0 2px}
 .intro{font:500 21px/1.4 'Cormorant Garamond',Georgia,serif;color:#35273d;max-width:520px;margin-top:24px}
 .btn{font:500 20px 'Cormorant Garamond',Georgia,serif;background:linear-gradient(110deg,#a447c9,#7130a2);box-shadow:0 9px 22px #8e43ad2b;padding:14px 25px}
 .simple-link{font:600 19px 'Cormorant Garamond',Georgia,serif;color:#6825a0;border-bottom:1px solid #6825a0;padding-bottom:3px}
@@ -76,8 +76,3 @@ footer .brand{font-size:23px}
  .intro{font-size:20px}
  .actions{flex-wrap:wrap;gap:18px}
 }
-
-/* Initial-letter identity: highlight all three initials M, N, and O in purple; keep remaining letters black. */
-h1 .name-line .initial{color:#7025a3 !important;-webkit-text-fill-color:#7025a3 !important;background:#e7c3fa !important;border-radius:9px;padding:0 3px;}
-h1 .name-line:first-child .initial{font-family:'Great Vibes','Cormorant Garamond',cursive;font-style:normal;}
-.monogram-card>strong{color:#6825a0 !important;-webkit-text-fill-color:#6825a0 !important;}
