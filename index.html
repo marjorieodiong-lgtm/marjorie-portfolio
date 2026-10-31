@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio of Marjorie Nichaella Odiong, BSCS student.">
+  <title>Marjorie Nichaella Odiong | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar">
+      <a class="brand" href="#home">MNO<span>.</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects & Certificates</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">PERSONAL PORTFOLIO</p>
+        <h1>Hello, I'm <span>Marjorie Nichaella Odiong.</span></h1>
+        <h2>BS Computer Science Student</h2>
+        <p class="intro">Welcome to my portfolio! This website is where I share a little about myself, the projects I have worked on, and the things I continue to learn as a computer science student.</p>
+        <a class="primary-btn" href="#projects">View My Work</a>
+      </div>
+      <div class="hero-card" aria-label="Portfolio initials">
+        <div class="circle">MNO</div>
+        <p>Learning • Creating • Improving</p>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">GET TO KNOW ME</p>
+        <h2>About Me</h2>
+      </div>
+      <div class="about-grid">
+        <div>
+          <p>Hi! I'm Marjorie Nichaella Odiong, a Bachelor of Science in Computer Science student at Cavite State University – Bacoor City Campus.</p>
+          <p>I am still learning and improving my skills in programming, web development, and database management. I enjoy working on activities that let me apply what I learn in class and turn ideas into useful projects.</p>
+          <p>My goal is to continue gaining experience, improve my problem-solving skills, and become more confident in creating technology-based solutions.</p>
+        </div>
+        <div class="skills-card">
+          <h3>Skills I'm Developing</h3>
+          <div class="skill-list">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            <span>Database Concepts</span><span>MySQL</span><span>MongoDB</span>
+            <span>Teamwork</span><span>Problem Solving</span>
+          </div>
+          <p class="small-note">Skills listed here reflect topics and tools I am learning through school activities and projects.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="section-heading">
+        <p class="eyebrow">MY SCHOOL WORK</p>
+        <h2>Projects & Certificates</h2>
+        <p class="section-desc">A few examples of projects and activities I have worked on as a student.</p>
+      </div>
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-number">01</div>
+          <h3>Gaming Stats & Achievements Hub</h3>
+          <p>A dashboard-based website project for organizing game-related information, player details, and transactions. The project uses database concepts involving MySQL and MongoDB.</p>
+          <div class="tags"><span>MySQL</span><span>MongoDB</span><span>Web Project</span></div>
+        </article>
+        <article class="project-card">
+          <div class="project-number">02</div>
+          <h3>Rider Income and Expense Monitoring System</h3>
+          <p>A proposed system concept focused on helping a delivery rider record daily income, expenses, and net earnings. It includes planning for system requirements and a simple web-based design.</p>
+          <div class="tags"><span>System Analysis</span><span>Planning</span><span>Database</span></div>
+        </article>
+        <article class="project-card">
+          <div class="project-number">03</div>
+          <h3>Personal Website Portfolio</h3>
+          <p>This portfolio website is a simple personal project made with HTML, CSS, and JavaScript. It presents my background, skills, and selected school work.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+        </article>
+      </div>
+      <div class="certificates">
+        <h3>Certificates</h3>
+        <p>I will add my certificates here as I complete more trainings, seminars, and school activities.</p>
+        <p class="small-note">No certificate files have been added yet.</p>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="section-heading">
+        <p class="eyebrow">LET'S CONNECT</p>
+        <h2>Contact</h2>
+        <p class="section-desc">You can use the form below to leave a message. This sample form is for the project demonstration and does not send messages to an email address yet.</p>
+      </div>
+      <form class="contact-form" id="contactForm">
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" placeholder="Your name" required>
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" placeholder="your@email.com" required>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Write your message..." required></textarea>
+        <button class="primary-btn" type="submit">Send Message</button>
+        <p class="form-feedback" id="formFeedback" role="status"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Marjorie Nichaella Odiong. Made as a student portfolio project.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
