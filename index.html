@@ -3,117 +3,90 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Personal portfolio of Marjorie Nichaella Odiong, BSCS student.">
+  <meta name="description" content="Personal portfolio of Marjorie Nichaella Odiong, a Computer Science student.">
+  <meta name="author" content="Marjorie Nichaella Odiong">
   <title>Marjorie Nichaella Odiong | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="site-header">
-    <nav class="navbar">
-      <a class="brand" href="#home">MNO<span>.</span></a>
-      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
-      <ul class="nav-links" id="navLinks">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects & Certificates</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+<header class="header">
+  <a class="brand" href="#home"><span class="brand-icon">M</span> marjorie<span class="dot">.</span></a>
+  <button class="menu" id="menu" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+  <nav id="nav"><a href="#home">Home</a><a href="#about">About</a><a href="#projects">Projects</a><a href="#certificates">Certificates</a><a href="#contact">Contact</a></nav>
+  <a class="header-link" href="#contact">Let's connect ↗</a>
+</header>
 
-  <main>
-    <section class="hero section" id="home">
-      <div class="hero-copy">
-        <p class="eyebrow">PERSONAL PORTFOLIO</p>
-        <h1>Hello, I'm <span>Marjorie Nichaella Odiong.</span></h1>
-        <h2>BS Computer Science Student</h2>
-        <p class="intro">Welcome to my portfolio! This website is where I share a little about myself, the projects I have worked on, and the things I continue to learn as a computer science student.</p>
-        <a class="primary-btn" href="#projects">View My Work</a>
-      </div>
-      <div class="hero-card" aria-label="Portfolio initials">
-        <div class="circle">MNO</div>
-        <p>Learning • Creating • Improving</p>
-      </div>
-    </section>
+<main>
+<section class="hero wrap" id="home">
+  <div class="hero-copy">
+    <p class="eyebrow"><i></i> COMPUTER SCIENCE STUDENT</p>
+    <p class="hello">Hello, I'm</p>
+    <h1>Marjorie<br><span>Nichaella Odiong</span></h1>
+    <p class="intro">A BSCS student learning to turn ideas into useful, thoughtful, and accessible digital experiences.</p>
+    <div class="actions"><a class="btn" href="#projects">Explore my work ↗</a><a class="simple-link" href="#about">A little about me ↓</a></div>
+    <p class="hero-foot">Curious mind. Creative approach. Continuous learning.</p>
+  </div>
+  <div class="hero-art">
+    <div class="orbit"></div><div class="monogram-card"><small>MY PORTFOLIO</small><strong>M<span>.</span></strong><div><b>Ideas into impact.</b><small>Learning · Creating · Improving</small></div></div>
+    <span class="float float-a">✦ Creative thinking</span><span class="float float-b">♡ User-focused</span>
+  </div>
+</section>
 
-    <section class="section about-section" id="about">
-      <div class="section-heading">
-        <p class="eyebrow">GET TO KNOW ME</p>
-        <h2>About Me</h2>
-      </div>
-      <div class="about-grid">
-        <div>
-          <p>Hi! I'm Marjorie Nichaella Odiong, a Bachelor of Science in Computer Science student at Cavite State University – Bacoor City Campus.</p>
-          <p>I am still learning and improving my skills in programming, web development, and database management. I enjoy working on activities that let me apply what I learn in class and turn ideas into useful projects.</p>
-          <p>My goal is to continue gaining experience, improve my problem-solving skills, and become more confident in creating technology-based solutions.</p>
-        </div>
-        <div class="skills-card">
-          <h3>Skills I'm Developing</h3>
-          <div class="skill-list">
-            <span>HTML</span><span>CSS</span><span>JavaScript</span>
-            <span>Database Concepts</span><span>MySQL</span><span>MongoDB</span>
-            <span>Teamwork</span><span>Problem Solving</span>
-          </div>
-          <p class="small-note">Skills listed here reflect topics and tools I am learning through school activities and projects.</p>
-        </div>
-      </div>
-    </section>
+<section class="section wrap" id="about">
+  <p class="eyebrow">01 / GET TO KNOW ME</p><h2>A little about <em>me.</em></h2>
+  <div class="about-grid">
+    <div class="about-text">
+      <p class="lead">I'm a Computer Science student who enjoys exploring how technology can make everyday tasks easier and more accessible.</p>
+      <p>As I continue learning, I'm building my knowledge in programming, application development, and emerging technologies. I believe good technology should not only work well, but should also be easy for people to use.</p>
+      <p>This portfolio is a space to share my projects, the skills I'm developing, and the progress I make along the way.</p>
+    </div>
+    <div class="facts">
+      <article><span>⌘</span><div><small>PROGRAM</small><b>Bachelor of Science in Computer Science</b></div></article>
+      <article><span>✿</span><div><small>YEAR & SECTION</small><b>BSCS 3-1</b></div></article>
+      <article><span>⌁</span><div><small>CAMPUS</small><b>CvSU – Bacoor City Campus</b></div></article>
+    </div>
+  </div>
+  <div class="skills"><div><p class="eyebrow">WHAT I'M BUILDING</p><h3>Skills in progress</h3></div><div class="tags"><span>HTML & CSS</span><span>JavaScript</span><span>UI Design</span><span>Problem Solving</span><span>Application Development</span><span>Accessibility Awareness</span></div></div>
+  <p class="note">Skills listed here reflect areas of learning and development.</p>
+</section>
 
-    <section class="section projects-section" id="projects">
-      <div class="section-heading">
-        <p class="eyebrow">MY SCHOOL WORK</p>
-        <h2>Projects & Certificates</h2>
-        <p class="section-desc">A few examples of projects and activities I have worked on as a student.</p>
-      </div>
-      <div class="project-grid">
-        <article class="project-card">
-          <div class="project-number">01</div>
-          <h3>Gaming Stats & Achievements Hub</h3>
-          <p>A dashboard-based website project for organizing game-related information, player details, and transactions. The project uses database concepts involving MySQL and MongoDB.</p>
-          <div class="tags"><span>MySQL</span><span>MongoDB</span><span>Web Project</span></div>
-        </article>
-        <article class="project-card">
-          <div class="project-number">02</div>
-          <h3>Rider Income and Expense Monitoring System</h3>
-          <p>A proposed system concept focused on helping a delivery rider record daily income, expenses, and net earnings. It includes planning for system requirements and a simple web-based design.</p>
-          <div class="tags"><span>System Analysis</span><span>Planning</span><span>Database</span></div>
-        </article>
-        <article class="project-card">
-          <div class="project-number">03</div>
-          <h3>Personal Website Portfolio</h3>
-          <p>This portfolio website is a simple personal project made with HTML, CSS, and JavaScript. It presents my background, skills, and selected school work.</p>
-          <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
-        </article>
-      </div>
-      <div class="certificates">
-        <h3>Certificates</h3>
-        <p>I will add my certificates here as I complete more trainings, seminars, and school activities.</p>
-        <p class="small-note">No certificate files have been added yet.</p>
-      </div>
-    </section>
+<section class="section wrap" id="projects">
+  <p class="eyebrow">02 / SELECTED WORK</p><h2>Things I've <em>worked on.</em></h2>
+  <article class="project">
+    <div class="project-art"><div class="app-preview"><div class="app-bar"><i></i><i></i><i></i><b>SpeakEase Connect</b></div><div class="app-body"><div class="app-logo">S <b>SpeakEase<br><small>CONNECT</small></b></div><h3>We're here to help you communicate.</h3><div class="app-action">Play Emergency Message　▶</div><div class="app-input">Type your message here...</div><div class="app-buttons"><span>Speak Now</span><span>Ready-made Phrases</span></div></div></div><small>ACCESSIBILITY · COMMUNICATION · CONCEPT DESIGN</small></div>
+    <div class="project-copy"><p class="project-label">FEATURED PROJECT</p><h3>SpeakEase <em>Connect</em></h3><h4>A proposed accessible communication mobile app</h4>
+      <p>SpeakEase Connect is a proposed app designed to support people who experience communication barriers, including people with speech difficulties, hearing impairments, and blind or low-vision users.</p>
+      <p>The concept brings helpful communication tools together in one place, making it easier to type, speak, select ready-made messages, and access voice guidance.</p>
+      <div class="tags feature-tags"><span>Text-to-speech</span><span>Speech-to-text</span><span>Ready-made messages</span><span>Voice guidance</span><span>High-contrast display</span><span>Emergency messages</span></div>
+      <p class="project-status">● Proposed concept — development and testing needed</p>
+    </div>
+  </article>
+</section>
 
-    <section class="section contact-section" id="contact">
-      <div class="section-heading">
-        <p class="eyebrow">LET'S CONNECT</p>
-        <h2>Contact</h2>
-        <p class="section-desc">You can use the form below to leave a message. This sample form is for the project demonstration and does not send messages to an email address yet.</p>
-      </div>
-      <form class="contact-form" id="contactForm">
-        <label for="name">Name</label>
-        <input id="name" name="name" type="text" placeholder="Your name" required>
-        <label for="email">Email</label>
-        <input id="email" name="email" type="email" placeholder="your@email.com" required>
-        <label for="message">Message</label>
-        <textarea id="message" name="message" rows="5" placeholder="Write your message..." required></textarea>
-        <button class="primary-btn" type="submit">Send Message</button>
-        <p class="form-feedback" id="formFeedback" role="status"></p>
-      </form>
-    </section>
-  </main>
+<section class="section wrap" id="certificates">
+  <p class="eyebrow">03 / TRAINING & QUALIFICATIONS</p><h2>Certificates & <em>achievements.</em></h2>
+  <p class="section-intro">TESDA National Certificate II qualifications earned through competency assessment and certification.</p>
+  <div class="cert-grid">
+    <article class="cert-card">
+      <a class="cert-image" href="caregiving-nc2.jpeg" target="_blank" rel="noopener" aria-label="View Caregiving NC II certificate"><img src="caregiving-nc2.jpeg" alt="TESDA National Certificate II in Caregiving awarded to Marjorie Nichaella Odiong"></a>
+      <div class="cert-info"><span class="cert-type">TESDA · NATIONAL CERTIFICATE II</span><h3>Caregiving</h3><p>Issued: June 26, 2025</p><p>Valid until: June 25, 2030</p><a href="caregiving-nc2.jpeg" target="_blank" rel="noopener">View certificate ↗</a></div>
+    </article>
+    <article class="cert-card">
+      <a class="cert-image" href="health-care-services-nc2.jpeg" target="_blank" rel="noopener" aria-label="View Health Care Services NC II certificate"><img src="health-care-services-nc2.jpeg" alt="TESDA National Certificate II in Health Care Services awarded to Marjorie Nichaella Odiong"></a>
+      <div class="cert-info"><span class="cert-type">TESDA · NATIONAL CERTIFICATE II</span><h3>Health Care Services</h3><p>Issued: August 13, 2025</p><p>Valid until: August 12, 2030</p><a href="health-care-services-nc2.jpeg" target="_blank" rel="noopener">View certificate ↗</a></div>
+    </article>
+  </div>
+  <p class="note">Select a certificate image to view it in a larger size.</p>
+</section>
 
-  <footer>
-    <p>© <span id="year"></span> Marjorie Nichaella Odiong. Made as a student portfolio project.</p>
-  </footer>
-  <script src="script.js"></script>
-</body>
-</html>
+<section class="section wrap" id="contact">
+  <div class="contact-panel"><div><p class="eyebrow">04 / SAY HELLO</p><h2>Have an idea?<br><em>Let's connect.</em></h2><p>I'm open to learning, collaboration, and conversations about technology and creative ideas.</p><a class="btn btn-light" href="mailto:YOUR_EMAIL@example.com">Send me an email ↗</a></div><div class="contact-stamp">LET'S<br>MAKE<br>IT WORK ✳</div></div>
+  <div class="contact-row"><div><small>EMAIL</small><a href="mailto:YOUR_EMAIL@example.com">Add your email address ↗</a></div><div><small>SOCIAL</small><span>Add your preferred social link</span></div><div><small>BASED IN</small><span>Philippines</span></div></div>
+</section>
+</main>
+<footer><a class="brand" href="#home"><span class="brand-icon">M</span> marjorie<span class="dot">.</span></a><p>Made with curiosity and a little creativity.</p><span>© <span id="year"></span> Marjorie Nichaella Odiong</span></footer>
+<script src="script.js"></script>
+</body></html>
